@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/icon.png" alt="小番茄圖示" width="128">
+</p>
+
 # 小番茄 Tomato Timer
 
 待在螢幕角落的桌面番茄鐘（Windows），附「目前專注任務」與簡單待辦清單。
@@ -30,7 +34,7 @@
 需求：Windows 10/11、Python 3.9+（開發環境為 3.12，安裝時需勾選 tcl/tk）。
 
 ```powershell
-git clone <repo-url> tomato_timer
+git clone https://github.com/wetwilliam/tomato_timer.git
 cd tomato_timer
 pythonw tomato.pyw        # 無主控台視窗；除錯時可改用 python tomato.pyw
 ```
@@ -62,6 +66,7 @@ python build.py
 tomato.pyw        主程式（計時器與待辦面板）
 build.py          產生圖示並以 PyInstaller 打包
 tomato.ico        應用程式圖示（由 build.py 產生）
+assets/icon.png   README 用的圖示預覽
 requirements.txt  打包所需套件
 ```
 
