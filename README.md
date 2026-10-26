@@ -7,6 +7,18 @@
 待在螢幕角落的桌面番茄鐘（Windows），附「目前專注任務」與簡單待辦清單。
 純 Python + tkinter，無第三方執行時依賴；也可打包成單一 `.exe`。
 
+## 畫面
+
+<p align="center">
+  <img src="assets/widget.png" alt="桌面小工具（滑鼠移上去展開）"><br>
+  <sub>滑鼠移上去時展開：剩餘時間、狀態、今日番茄數與目前任務</sub>
+</p>
+
+<p align="center">
+  <img src="assets/panel.png" alt="任務與待辦面板"><br>
+  <sub>雙擊番茄開啟「任務與待辦」面板</sub>
+</p>
+
 ## 功能
 
 - 常駐螢幕角落、永遠置頂、背景透明；閒置時半透明，滑鼠移上去或有提示時才完整顯示
@@ -66,7 +78,7 @@ python build.py
 tomato.pyw        主程式（計時器與待辦面板）
 build.py          產生圖示並以 PyInstaller 打包
 tomato.ico        應用程式圖示（由 build.py 產生）
-assets/icon.png   README 用的圖示預覽
+assets/           README 用的圖示與截圖
 requirements.txt  打包所需套件
 ```
 
